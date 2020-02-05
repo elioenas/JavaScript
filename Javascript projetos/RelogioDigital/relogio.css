@@ -1,0 +1,28 @@
+body {
+    background-color:wheat;
+}
+#clock {
+  color: #fff;
+  font-size: 97px;
+  background-color: black;
+  padding: 0.5em 0em;
+  width: 50%;
+  margin: 0px auto;
+  font-family: Helvetica,Arial;
+  text-align: center;
+}
+#banner {
+  color: #fefefe;
+  font-size: 25px;
+  text-align:center;
+  background-color: slategray;
+  padding: 0.5em 0em;
+  width: 50%;
+  margin: 10% auto 0%;
+  font-family: Helvetica;
+  text-align: left;
+  text-transform:uppercase;
+}
+span {
+  margin-left:245px;
+}

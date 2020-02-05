@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset="utf-8">
+<head>
+	<title>Calculadora</title>
+</head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="index.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<body>
+
+<h3> Calculadora basica</h3>
+<br>
+<form id="calculadora" name="calc">
+
+<input  name="display" class="btn btn-light" style="width:675px;height:100px;text-align:center;"> <br/>
+		<input type=button class="btn btn-dark" value="0" OnClick="calc.display.value+='0'" >
+		<input type=button class="btn btn-dark" value="1" OnClick="calc.display.value+='1'" >
+		<input type=button class="btn btn-dark" value="2" OnClick="calc.display.value+='2'">
+		<input type=button class="btn btn-dark" value="+" OnClick="calc.display.value+='+'"> <br/>
+		<input type=button class="btn btn-dark" value="3" OnClick="calc.display.value+='3'">
+		<input type=button class="btn btn-dark" value="4" OnClick="calc.display.value+='4'">
+		<input type=button class="btn btn-dark" value="5" OnClick="calc.display.value+='5'">
+		<input type=button class="btn btn-dark" value="-" OnClick="calc.display.value+='-'" > <br/>
+		<input type=button class="btn btn-dark" value="6" OnClick="calc.display.value+='6'">
+		<input type=button class="btn btn-dark" value="7" OnClick="calc.display.value+='7'">
+		<input type=button class="btn btn-dark" value="8" OnClick="calc.display.value+='8'">
+		<input type=button class="btn btn-dark" value="x" OnClick="calc.display.value+='*'"><br/>
+		<input type=button class="btn btn-dark" value="9" OnClick="calc.display.value+='9'">
+		<input type=button class="btn btn-dark" value="C" OnClick="calc.display.value=''" >
+		<input type=button class="btn btn-dark" value="=" OnClick="calc.display.value=eval(calc.display.value)" >
+		<input type=button class="btn btn-dark" value="&#247;" OnClick="calc.display.value+='/'">
+</form>
+ </body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</html>
